@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.edgarmorales.weba.*;" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -8,6 +9,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%= "mi primer proyecto con jsp"%>
+        <%=ContadorVisitas.getContador() %>
     </body>
 </html>
