@@ -14,7 +14,9 @@
     <body>
         Ya quiero tacos!!
         <%-- AQUI ACTION ES UNA URL RELATIVA--%>
-        <form action="chapo.guzman" method="post">
+        <form action="chapo.guzman" method="get">
+            <p>Nombre:</p>
+            <input type="text" name="nombre">
             <input type="submit" value="Crear cuenta">
             
         </form>
