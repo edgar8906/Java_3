@@ -5,9 +5,17 @@
         <servlet-name>Conejo</servlet-name>
         <servlet-class>morales.cuentas.controladores.ServletCrearCuenta</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletRegistro</servlet-name>
+        <servlet-class>morales.cuentas.controladores.ServletRegistro</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Conejo</servlet-name>
         <url-pattern>/chapo.guzman</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletRegistro</servlet-name>
+        <url-pattern>/ServletRegistro</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
